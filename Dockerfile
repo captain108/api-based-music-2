@@ -14,4 +14,4 @@ COPY . .
 RUN pip install -U pip
 RUN pip install .
 
-CMD ["python", "-m", "AloneMusic"]
+CMD ["python", "-m", "alonemusic"]
