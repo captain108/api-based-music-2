@@ -10,6 +10,7 @@ WORKDIR /app
 COPY . .
 
 RUN pip install -U pip uv
-RUN uv pip install --system .
+RUN uv pip install -U pip
+    pip install alonemusic
 
 CMD ["AloneMusic"]
